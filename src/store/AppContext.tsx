@@ -1,5 +1,4 @@
 import React, {FC, ReactNode, useReducer, createContext, useEffect, useState} from "react";
-import useAccount from "../hooks/useAccount";
 
 export interface IUser {
     username: string,

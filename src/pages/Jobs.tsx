@@ -55,7 +55,7 @@ const Jobs: FC<IProps> = (props) => {
             </div>
         </div>
 
-        {(!jobs || !jobs.length && inputRef.current?.value) && <div className="text-center mt-3">
+        {(!(jobs || !jobs.length) && inputRef.current?.value) && <div className="text-center mt-3">
             <h1>No jobs for this search term</h1>
             <button className="btn btn-inverse-primary" onClick={handleClearSearch}>Clear search</button>
         </div>}

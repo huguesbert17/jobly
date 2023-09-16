@@ -1,4 +1,4 @@
-import { Fragment, Suspense, lazy, useContext, useEffect } from 'react';
+import { Fragment, Suspense, lazy, useContext } from 'react';
 import './App.scss';
 import Navbar from './components/Navbar';
 import AppContext from './store/AppContext';

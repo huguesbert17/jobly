@@ -1,8 +1,7 @@
-import React, {FC, useContext, useEffect} from "react";
+import {FC, useContext} from "react";
 import Logo from "../logo.svg"
 import AppContext from "../store/AppContext";
 import useAccount from "../hooks/useAccount";
-import { useNavigate } from "react-router-dom";
 
 const Profile: FC = () => {
     const {update} = useAccount(),
