@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jobly/static/css/main.49d28cae.css",
-    "main.js": "/jobly/static/js/main.437fd5bb.js",
+    "main.js": "/jobly/static/js/main.0a80af43.js",
     "static/js/305.182346db.chunk.js": "/jobly/static/js/305.182346db.chunk.js",
     "static/js/107.cded91b8.chunk.js": "/jobly/static/js/107.cded91b8.chunk.js",
     "static/js/573.027aad96.chunk.js": "/jobly/static/js/573.027aad96.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/logo.svg": "/jobly/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jobly/index.html",
     "main.49d28cae.css.map": "/jobly/static/css/main.49d28cae.css.map",
-    "main.437fd5bb.js.map": "/jobly/static/js/main.437fd5bb.js.map",
+    "main.0a80af43.js.map": "/jobly/static/js/main.0a80af43.js.map",
     "305.182346db.chunk.js.map": "/jobly/static/js/305.182346db.chunk.js.map",
     "107.cded91b8.chunk.js.map": "/jobly/static/js/107.cded91b8.chunk.js.map",
     "573.027aad96.chunk.js.map": "/jobly/static/js/573.027aad96.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.49d28cae.css",
-    "static/js/main.437fd5bb.js"
+    "static/js/main.0a80af43.js"
   ]
 }
