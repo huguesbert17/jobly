@@ -1,0 +1,66 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+:root{
+  --bs-border-color : #565656;
+  --bs-body-bg: #191919;
+  --bs-body-color: #fff;
+  --bs-border-color-translucent: rgb(110 110 110 / 18%)
+}
+
+body{
+  height: 100%;
+  ::placeholder{
+    color: --bs-body-color;
+  }
+  .card{
+    background-color: #323232;
+  }
+}
+
+/* Blockquote style */
+blockquote{
+  background:#1b1b1b;  
+  color:#617a91;
+  font-size:17px;
+  font-style: italic;
+  border: 1px solid #2e87e7;
+  border-radius:4px;
+  padding: 20px;
+  margin: 1.5em 0;
+  clear: both;
+  }
+  blockquote:before {
+    color: #2e87e7;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote, q {
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #565656!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #565656!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #565656!important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #565656!important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #565656!important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color:    #565656!important;
+}

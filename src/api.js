@@ -2035,7 +2035,9 @@ class JoblyApi {
   /** Get details on a company by handle. */
 
   static async getCompany(handle) {
-    return mocks.company;
+    return mocks.companies.filter(c => {
+      return c.handle.toLocaleLowerCase().includes(handle.toLocaleLowerCase())
+    })
   }
 
   /** Get list of jobs (filtered by title if not undefined) */
@@ -2047,6 +2049,19 @@ class JoblyApi {
       })
     }
     return mocks.jobs;
+  }
+
+  /** Get list of companyjobs (filtered by title if not undefined) */
+
+  static async getCompanyJobs(company, title) {
+    if (title) {
+      return mocks.jobs.filter(c => {
+        return c.title.toLocaleLowerCase().includes(title.toLocaleLowerCase()) && c.companyHandle === company
+      })
+    }
+    return mocks.jobs.filter(c => {
+      return c.companyHandle === company
+    })
   }
 
   /** Apply to a job */
